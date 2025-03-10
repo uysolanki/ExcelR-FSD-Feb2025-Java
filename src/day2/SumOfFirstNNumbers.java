@@ -13,10 +13,12 @@ public class SumOfFirstNNumbers {
 		int sum=0;
 		for(int i=1;i<=n;i++)
 		{
-			sum=sum+i;
+			sum=sum+ i*i;
 		}
 		System.out.println(sum);
 
 	}
 
 }
+//1 + 4 + 9 + 16 + 25 + 36
+//sum =0,1,5,14,30,55,91
