@@ -24,9 +24,6 @@ public class ProfilCalc {
 		else
 		{
 			System.out.println("No Profit No Loss");
-		}
-		
-		
+		}	
 	}
-
 }
