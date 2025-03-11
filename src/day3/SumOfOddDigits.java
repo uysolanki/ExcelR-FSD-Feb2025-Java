@@ -22,5 +22,4 @@ public class SumOfOddDigits {
 
 		System.out.println(sum);
 	}
-
 }
