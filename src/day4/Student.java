@@ -8,6 +8,20 @@ public class Student {
 	private String sname;
 	private double per;
 	
+	public Student()  //No args constructor
+	{
+		rno=1;
+		sname="Shreyas";
+		per=50.0;
+	}
+	
+	public Student(int a,String b,double c)  //Parameterised constructor
+	{
+		rno=a;
+		sname=b;
+		per=c;
+	}
+	
 	public void acceptStudent()
 	{
 		Scanner sc=new Scanner(System.in);
