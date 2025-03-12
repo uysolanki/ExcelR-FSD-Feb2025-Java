@@ -4,6 +4,8 @@ public class StudentMain {
 
 	public static void main(String[] args) {
 //      classname objectname  =     new   classname    ();
+	    Student.displayPrincipalName();
+		
 		Student   s1 = new  Student();
 		Student   s2 = new  Student(18,"Virat",78.5); //int,String,double
 		Student   s3 = new  Student();

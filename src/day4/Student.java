@@ -4,22 +4,23 @@ import java.util.Scanner;
 
 public class Student {
 
-	private int rno;
+	private int rno;    //object instance variable/scope
 	private String sname;
 	private double per;
+	private static String principalName="Smith";  // class/static scope
 	
 	public Student()  //No args constructor
 	{
-		rno=1;
-		sname="Shreyas";
-		per=50.0;
+		this.rno=1;
+		this.sname="Shreyas";
+		this.per=50.0;
 	}
 	
 	public Student(int a,String b,double c)  //Parameterised constructor
 	{
-		rno=a;
-		sname=b;
-		per=c;
+		this.rno=a;
+		this.sname=b;
+		this.per=c;
 	}
 	
 	public void acceptStudent()
@@ -27,17 +28,23 @@ public class Student {
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter rno");  //18
-		rno=sc.nextInt();
+		this.rno=sc.nextInt();
 		System.out.println("Enter name"); //Virat
-		sname=sc.next();
+		this.sname=sc.next();
 		System.out.println("Enter Per");  //78.5
-		per=sc.nextDouble();
+		this.per=sc.nextDouble();
 	}
 	
 	public void displayStudent()
 	{
-		System.out.println("Rno is "+rno);
-		System.out.println("Name is "+sname);
-		System.out.println("Per is "+per);
+		System.out.println("Rno is "+this.rno);
+		System.out.println("Name is "+this.sname);
+		System.out.println("Per is "+this.per);
+		
+	}
+	
+	public static void displayPrincipalName()
+	{
+		System.out.println("Principal Name "+ Student.principalName);
 	}
 }
