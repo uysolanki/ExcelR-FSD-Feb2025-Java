@@ -72,6 +72,10 @@ public class StringDemo {
 		System.out.println(String.format("%-10s","Tie")+String.format("%-10d",500));
 		System.out.println(String.format("%-10s","Total")+String.format("%-10d",4000));
 
+		String name="Virat Kohli";
+		name=name.replace("Kohli", "Sharma");
+		System.out.println(name);
+		
 	}
 }
 
