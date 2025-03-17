@@ -14,3 +14,4 @@ public class Shape {
 			System.out.println("Area of Circle is "+result);
 		}
 }
+
