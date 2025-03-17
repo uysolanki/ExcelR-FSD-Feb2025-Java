@@ -2,6 +2,9 @@ package day6;
 
 public class Shape {
 		//function overloading
+	
+		final double PI=3.14;
+		
 		public void area(int length,int width)//rect
 		{
 			int result=length*width;
@@ -10,7 +13,7 @@ public class Shape {
 		
 		public void area(int radius)//rect
 		{
-			double result=3.14*radius*radius;
+			double result=PI*radius*radius;
 			System.out.println("Area of Circle is "+result);
 		}
 }

@@ -1,8 +1,8 @@
 package day6;
 
-public class Amitabh {
+final public class Amitabh {
 
-	public void home()
+	final public void home()
 	{
 		System.out.println("Jalsa");
 	}
