@@ -6,7 +6,12 @@ public class Employee extends Person
 	String designation;
 	double salary;
 	
-	public Employee() {}
+	public Employee() {
+		super();
+		this.eno=111;
+		this.designation="Clerk";
+		this.salary=800.0;
+	}
 	public Employee(int adharNo, String name, int age, String address,int eno,String designation, double salary)
 	{
 		super(adharNo, name,age,  address);
