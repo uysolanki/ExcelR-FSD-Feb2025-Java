@@ -1,8 +1,8 @@
 package day6;
 
-final public class Amitabh {
+public class Amitabh {
 
-	final public void home()
+	public void home()
 	{
 		System.out.println("Jalsa");
 	}
@@ -10,5 +10,10 @@ final public class Amitabh {
 	public void car()
 	{
 		System.out.println("BMW");
+	}
+	
+	public void car(int n)
+	{
+		System.out.println("Mercedes");
 	}
 }
