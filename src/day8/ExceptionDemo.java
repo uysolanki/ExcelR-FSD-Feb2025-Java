@@ -20,7 +20,7 @@ public class ExceptionDemo {
 		int arr[]=new int[2];
 		arr[0]=100;
 		arr[1]=200;
-		arr[2]=300;
+		//arr[2]=300;
 		}
 		catch(ArithmeticException e1)
 		{
@@ -34,7 +34,23 @@ public class ExceptionDemo {
 		{
 			System.out.println("Some exception occured");
 		}
-
-		System.out.println("hii");
+		finally {
+			System.out.println("hii");
+		}
 	}
 }
+
+/*
+ 1 defination
+ 2 java natural reaction when exception occurs
+ 3. various exception classes along with the exception hierarchy
+ 4. format of eh try catch finally
+ 5. multiple catch block
+ 6. default exception
+ 7. user definec / custom exception
+ 8. throw
+ 9. throws keyword
+ 10. throw, throws, Throwable
+ 11. categories of exception - checked/unchecked
+ 
+ */
