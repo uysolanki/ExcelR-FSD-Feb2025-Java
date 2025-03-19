@@ -14,9 +14,13 @@ public class ExceptionDemo {
 		System.out.println("Enter Denominator");//0
 		int deno=sc.nextInt();
 		
-		
 		double result=num/deno;
 		System.out.println("Result is "+result);
+		
+		int arr[]=new int[2];
+		arr[0]=100;
+		arr[1]=200;
+		arr[2]=300;
 		}
 		catch(ArithmeticException e1)
 		{
@@ -25,6 +29,10 @@ public class ExceptionDemo {
 		catch(InputMismatchException e2)
 		{
 			System.out.println("Please enter valid integer value only");
+		}
+		catch(Exception e3)
+		{
+			System.out.println("Some exception occured");
 		}
 
 		System.out.println("hii");
